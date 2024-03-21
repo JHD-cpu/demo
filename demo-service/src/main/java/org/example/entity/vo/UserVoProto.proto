@@ -1,0 +1,8 @@
+syntax = "proto3";
+package org.example.entity.vo;
+option java_outer_classname = "UserVoProtoBuff";
+message UserVo {
+    string name = 1;
+    int32 age = 2;
+    int32 sex = 3;
+}
